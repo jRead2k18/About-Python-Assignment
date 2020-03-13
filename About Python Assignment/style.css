@@ -1,0 +1,179 @@
+*{
+    /* outline: 1px dotted black; */
+    font-family: sans-serif;
+}
+body{
+    width: 970px;
+}
+.mainContainer{
+    background-color: #245076;
+    height: 605px;
+    border-bottom: 3px solid #183753;Main
+}
+.imgHolder, .searchArea{
+    display: inline-block;
+    vertical-align: top;
+}
+.header img{
+    width: 475px;
+}
+.imgHolder{
+    width: 620px;
+}
+.searchArea{
+    color: snow;
+    text-align: center;
+}
+.textSize p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.textSize p a{
+    color: gold;
+}
+.searchBar{
+    background-color: #444444;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px #0c0c0c;
+}
+.searchBar input{
+    text-align: center;
+    height: 35px;
+    width: 200px;
+}
+.searchBar a{
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: snow;
+    background-color: #245076;
+    border: 2px solid silver;
+    border-radius: 10px;
+    box-shadow: 3px 3px #0c0c0c;
+
+}
+.linkSectionTop ul{
+    background-color: #467ead;
+    width: 775px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px black;
+    text-align: center;
+    margin: 0px auto;
+}
+.linkSectionTop ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 12px;
+    font-size: 24px;
+}
+.linkSectionTop ul li a{
+    text-decoration: none;
+    color: snow;
+}
+.sideBar{
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;
+}
+.sideBar ul{
+    margin-left: 85px;
+}
+.sideBar ul li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 12px;
+}
+.sideBar ul li a{
+    color: snow;
+    font-size: 17;
+}
+.sideBar ul li:before{
+    content: ">>";
+    color: gold;
+    font-size: 10px;
+}
+.rightSideMain{
+    display: inline-block;
+}
+.rightText{
+    width: 560px;
+    margin-left: 30px;
+    vertical-align: top;
+}
+.rightText p{
+    text-align: center;
+    color: snow;
+}
+.rightZenList ul li{
+    list-style: none;
+    text-align: center;
+}
+.rightZenList ul li h2{
+    font-style: italic;
+    font-size: 22px;
+    color: gold;
+}
+.rightZenList ul li h3{
+    font-size: 19px;
+    color: snow;
+}
+.middleContainer{
+    height: 300px;
+    margin-top: 20px;
+}
+.mcContent *{
+    text-align: center;
+}
+.leftSideMiddle, .rightSideMiddle{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 380px;
+    vertical-align: top;
+    border-top: 3px solid #73a7d5;
+}
+.leftSideMiddle{
+    margin-left: 80px;
+}
+.leftSideMiddle h2, .rightSideMiddle h2{
+    margin-top: 5px;
+}
+.leftSideMiddle p, .rightSideMiddle p{
+    width: 320px;
+    margin: 0px auto;
+}
+.leftSideMiddle p a, .rightSideMiddle p a{
+    text-decoration: none;
+    color: skyblue;
+}
+.leftSideMiddle ul li, .rightSideMiddle ul li{
+    list-style-type: square;
+} 
+.leftSideMiddle ul li a, .rightSideMiddle ul li a{
+    text-decoration: none;
+    color: skyblue;
+}
+.footer{
+    background-image: linear-gradient(#245076, #3274ab);
+    height: 125px;
+}
+.footer ul{
+    padding-top: 60px;
+    text-align: center;
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 20px;
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
+    color: skyblue;
+}
